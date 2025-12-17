@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'octofit_tracker',
 ]
 
+# Use custom user model
+AUTH_USER_MODEL = 'octofit_tracker.User'
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
